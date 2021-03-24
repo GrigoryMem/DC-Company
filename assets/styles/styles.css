@@ -5,6 +5,10 @@ body{
     line-height: 1.6;
     color:#B5B5B5;
     font-size:14px;
+    background-color:#040D3E;
+    background:linear-gradient(to bottom, #3B1D60,#040D3E);
+  
+    
     
     
 
@@ -40,6 +44,9 @@ button {
 
 .page{
     overflow: hidden;
+   
+  
+    
 }
 
 .text{
@@ -186,9 +193,10 @@ button {
 
 
 .intro{
-    background-color:#040D3E;
-    background:linear-gradient(to bottom, #3B1D60,#040D3E);
+    /* background-color:#040D3E;
+    background:linear-gradient(to bottom, #3B1D60,#040D3E); */
     padding-top:220px;
+   
     
 }
 
@@ -266,9 +274,7 @@ button {
     cursor: pointer;
 }
 
-.intro__play-text{
 
-}
 
 .play-text{
     width:100%;
@@ -291,6 +297,27 @@ button {
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
 }
+
+
+
+
+/*  Partners  */
+
+.partners{
+    margin-bottom:100px;
+    
+    
+
+    
+    
+}
+
+.brand{
+color: #8476AA;
+}
+
+
+   
 
 
 /* font-family: 'Inter', sans-serif;
