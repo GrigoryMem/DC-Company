@@ -6,12 +6,9 @@ body{
     color:#B5B5B5;
     font-size:14px;
     background-color:#040D3E;
-    background:linear-gradient(to bottom, #3B1D60,#040D3E);
-  
-    
-    
-    
-
+    background-repeat: no-repeat;
+    background:linear-gradient(to bottom, #3B1D60,#040D3E) fixed;
+    height: 100%;
 }
 
 *,
@@ -44,9 +41,8 @@ button {
 
 .page{
     overflow: hidden;
-   
+    position: relative;
   
-    
 }
 
 .text{
@@ -305,19 +301,108 @@ button {
 
 .partners{
     margin-bottom:100px;
+    width: 100%;
     
     
 
     
     
+}
+
+
+.brand__parnters{
+
+display:flex;
+flex-wrap:nowrap;
+justify-content: center;
+
+
+
 }
 
 .brand{
 color: #8476AA;
+
+margin-right:74px;
+}
+
+.brand:last-child{
+    margin-right:0;
 }
 
 
-   
+/*  Your Choice */
+
+.choice__title,.choice__descript{
+    text-align: center;
+}
+
+
+.choices__list{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+}
+
+.choice__inner{
+   padding-left:55px;
+   padding-right:55px;
+}
+
+.choice__item{
+    margin-bottom:35px;
+}
+
+.choice__title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color:#99EFD0;
+    margin-bottom: 15px;
+}
+
+.choice__descript{
+    color:#8476AA;
+    font-family:Gilroy,sans-serif;
+    font-weight: 600;
+    font-size:16px;
+    margin-bottom: 50px;
+
+}
+
+
+.choice__title-wrapper{
+    display: flex;
+  
+}
+
+
+.choice__title-item{
+    font-family:Gilroy,sans-serif;
+    font-weight: 700;
+    font-size:18px;
+    line-height: 1.2;
+    color:#99EFD0;
+    margin-bottom:10px;
+    
+
+}
+
+.choice__icon{
+    vertical-align: middle;
+    margin-right: 28px;
+}
+
+.choice__text{
+    color:#8476AA;
+    font-family:Gilroy,sans-serif;
+    font-weight: 600;
+    font-size:14px;
+    margin-bottom: 50px;
+    line-height: 1.4;
+    padding-left:54px;
+    
+}
 
 
 /* font-family: 'Inter', sans-serif;
